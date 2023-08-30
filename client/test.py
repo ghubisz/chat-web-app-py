@@ -40,4 +40,5 @@ def send_message(msg):
 receive_thread = Thread(target=receive_messages)
 receive_thread.start()
 
+send_message("Gabi")
 send_message("hello")
